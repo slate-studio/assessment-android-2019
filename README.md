@@ -63,7 +63,7 @@ Hint:
 >* Awareness [https://developers.google.com/awareness/android-api/fence-register 
 >* or any other API of your choice.
 >
-> (Both com.google.android.geo.API_KEY and com.google.android.awareness.API_KEY in Manifest are registered and activated, so you do not need to create your own keys)
+> Both com.google.android.geo.API_KEY and com.google.android.awareness.API_KEY in Manifest are registered and activated, so you do not need to create your own keys.
 
 
 ## Notes:
