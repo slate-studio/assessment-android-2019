@@ -2,7 +2,7 @@
 
 Programming languages: Java and/or Kotlin
 
-**Task 1** 
+### Task 1
 
 Having two JSON: 
 
@@ -28,17 +28,14 @@ The app’s objectives:
 
    
 
-**Task 2** 
+### Task 2
 
 Given rectangular area where longitudinal axis is parallel to the equator, and its center coordinates (Latc, Lonc), width (W) and length (L) are known.
 
-Latc = 1.180054
-
-Lonc = 103.417785
-
-W = 80 meters
-
-L = 240 meters
+* Latc = 1.180054
+* Lonc = 103.417785
+* W = 80 meters
+* L = 240 meters
 
 You need to place a set of inscribed circles (R = W/2) and register each of them as a fence area.
 
