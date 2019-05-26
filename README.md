@@ -4,7 +4,11 @@ Programming languages: Java and/or Kotlin
 
 **Task 1** 
 
-Having two JSON: **rooms.json** ([https://api.myjson.com/bins/1eyhi8](https://api.myjson.com/bins/1eyhi8)) and **person.json** ([https://api.myjson.com/bins/19b2z4](https://api.myjson.com/bins/19b2z4)). 
+Having two JSON: 
+
+**rooms.json** ([https://api.myjson.com/bins/1eyhi8](https://api.myjson.com/bins/1eyhi8)) 
+
+**person.json** ([https://api.myjson.com/bins/19b2z4](https://api.myjson.com/bins/19b2z4))
 
 Every item in **rooms.json** describes its center coordinates (lat, lon), radius and security access level (integer values 0, 1, 2, ... ).
 
@@ -18,7 +22,7 @@ The app’s objectives:
 
 * To detect whether the person is in radius of the restricted room. 
 
-            ***_isRestricted = person.level < room.level_**
+            isRestricted = person.level < room.level
 
 * If in radius then display alert warning (e.g. Toast or Snackbar)
 
@@ -38,27 +42,23 @@ L = 240 meters
 
 You need to place a set of inscribed circles (R = W/2) and register each of them as a fence area.
 
-Hint: 
+>Hint: 
+>Use the quick and dirty estimate that 111,111 meters (111.111 km) in the y direction is 1 degree (of latitude) and 111,111 >* cos(latitude) meters in the x direction is 1 degree (of longitude)
 
-Use the quick and dirty estimate that 111,111 meters (111.111 km) in the y direction is 1 degree (of latitude) and 111,111 * cos(latitude) meters in the x direction is 1 degree (of longitude)
-
-![alt text](readme.res/ship.png)
-
+![Alt text](readme.res/Ship.png "Rectangular area")
   
 
 The app’s goal is 
 
 -To detect whether device is not within any of fence areas (e.g. out of rectangular area) and display alert warning (e.g. Toast or Snackbar).
 
-Hint: 
-
-You can use one of
-
--Geofencing [https://developer.android.com/training/location/geofencing](https://developer.android.com/training/location/geofencing)
-
--Awareness [https://developers.google.com/awareness/android-api/fence-register](https://developers.google.com/awareness/android-api/fence-register) 
-
--or any other API of your choice.
+>Hint: 
+>You can use one of
+>-Geofencing [https://developer.android.com/training/location/geofencing]
+>(https://developer.android.com/training/location/geofencing)
+>-Awareness [https://developers.google.com/awareness/android-api/fence-register]
+>(https://developers.google.com/awareness/android-api/fence-register) 
+>-or any other API of your choice.
 
 ## Notes:
 
