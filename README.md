@@ -1,4 +1,4 @@
-#Android Assessment Tasks
+# Android Assessment Tasks
 
 Programming languages: Java and/or Kotlin
 
@@ -28,7 +28,7 @@ The app’s objectives:
 
    
 
-**Task** **2** 
+**Task 2** 
 
 Given rectangular area where longitudinal axis is parallel to the equator, and its center coordinates (Latc, Lonc), width (W) and length (L) are known.
 
@@ -42,8 +42,9 @@ L = 240 meters
 
 You need to place a set of inscribed circles (R = W/2) and register each of them as a fence area.
 
->Hint: 
->Use the quick and dirty estimate that 111,111 meters (111.111 km) in the y direction is 1 degree (of latitude) and 111,111 >* cos(latitude) meters in the x direction is 1 degree (of longitude)
+Hint: 
+>Use the quick and dirty estimate that 111,111 meters (111.111 km) in the Y direction is 1 degree (of latitude) 
+>and 111,111 * cos(latitude) meters in the X direction is 1 degree (of longitude)
 
 ![Alt text](readme.res/Ship.png "Rectangular area")
   
@@ -52,13 +53,11 @@ The app’s goal is
 
 -To detect whether device is not within any of fence areas (e.g. out of rectangular area) and display alert warning (e.g. Toast or Snackbar).
 
->Hint: 
+Hint: 
 >You can use one of
->-Geofencing [https://developer.android.com/training/location/geofencing]
->(https://developer.android.com/training/location/geofencing)
->-Awareness [https://developers.google.com/awareness/android-api/fence-register]
->(https://developers.google.com/awareness/android-api/fence-register) 
->-or any other API of your choice.
+>* Geofencing [https://developer.android.com/training/location/geofencing]
+>* Awareness [https://developers.google.com/awareness/android-api/fence-register 
+>* or any other API of your choice.
 
 ## Notes:
 
