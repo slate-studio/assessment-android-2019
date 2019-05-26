@@ -67,9 +67,8 @@ Hint:
 
 
 ## Notes:
+App should consist of 2 screens (Activities or Fragments - up to your choice), one screen per task.
 
-* 
-* App should consist of 2 screens (Activities or Fragments - up to your choice), one screen per task.
 
 Happy coding!
 
