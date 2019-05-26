@@ -18,9 +18,9 @@ The app’s objectives:
 
 * To detect whether the person is in radius of the restricted room. 
 
-*             ***_isRestricted = person.level < room.level_**
+            ***_isRestricted = person.level < room.level_**
 
-                        If in radius then display alert warning (e.g. Toast or Snackbar)
+* If in radius then display alert warning (e.g. Toast or Snackbar)
 
    
 
@@ -42,7 +42,7 @@ Hint:
 
 Use the quick and dirty estimate that 111,111 meters (111.111 km) in the y direction is 1 degree (of latitude) and 111,111 * cos(latitude) meters in the x direction is 1 degree (of longitude)
 
-![image alt text](readme.res/ship.png)
+![alt text](readme.res/ship.png)
 
   
 
