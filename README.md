@@ -50,7 +50,7 @@ Hint:
   
 
 The app’s goal:
--To detect whether device is not within any of fence areas (e.g. out of rectangular area) and display alert warning (e.g. Toast or Snackbar).
+* To detect whether device is not within any of fence areas (e.g. out of rectangular area) and display alert warning (e.g. Toast or Snackbar).
 
 Hint: 
 >You can use one of
