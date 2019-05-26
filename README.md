@@ -43,8 +43,13 @@ L = 240 meters
 You need to place a set of inscribed circles (R = W/2) and register each of them as a fence area.
 
 Hint: 
->Use the quick and dirty estimate that 111,111 meters (111.111 km) in the Y direction is 1 degree (of latitude) 
->and 111,111 * cos(latitude) meters in the X direction is 1 degree (of longitude)
+>Use the quick and dirty estimate that 
+>
+>111,111 meters (111.111 km) in the Y direction is 1 degree (of latitude) 
+>
+>and 
+>
+>111,111 * cos(latitude) meters in the X direction is 1 degree (of longitude)
 
 ![Alt text](readme.res/Ship.png "Rectangular area")
   
