@@ -63,8 +63,15 @@ Hint:
 > Both com.google.android.geo.API_KEY and com.google.android.awareness.API_KEY in Manifest are registered and activated, so you do not need to create your own keys.
 
 
-## Notes:
-App should consist of 2 screens (Activities or Fragments - up to your choice), one screen per task.
+### Task 3 (Optional)
+Create an NDK module that is able to turn GPS on/off. 
+You are allowed to use any library/tool of own choice (either native like libhardware, or 3-party like https://gist.github.com/kanru/1568934).
+On UI, there should be a button by which the user can interact with the NDK module to turn GPS on/off.
+
+
+### Notes:
+App should consist of 2 screens (Activities or Fragments - up to your choice), one screen for Task 1 and one screen for Task 2.
+The button for the Task 3 may be placed on any screen.
 
 
 Happy coding!
